@@ -1,0 +1,27 @@
+*{font-family: 'Lora'}
+h1, h2, h3, h4, .h1, .h2, .h3, .h4 {font-family: 'Fira Sans'}
+
+:root{ --redd: rgb(204, 13, 22);
+        --redl: rgb(255, 89, 89);
+        --white:rgb(253, 245, 245); }
+
+.bg-redd{background-color: var(--redd);}
+.bg-redl{background-color: var(--redl);}
+.bg-white{background-color: var(--white);}
+
+.text-redd{color: var(--redd)}
+.text-redl{color: var(--redl);}
+.text-white{color: var(--white);}
+
+.nav-link{color: var(--white);
+font-weight: 700;}
+
+.nav-link:hover{color: var(--redl);
+    text-shadow: 2, 2, 4 var(--white) -2, -2, 4 var(--white);
+}
+
+.navbar{height: 80px;
+transition: 0.5s;}
+
+.logo{width: 50px;}
+.prova{height: 150vh;}
